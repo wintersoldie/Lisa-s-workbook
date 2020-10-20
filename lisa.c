@@ -18,5 +18,8 @@ int main (){
         scanf("%d %d",&a,&b);
         frr[i]=min(arr,a,b);
     }
+    for(int i=0;i<t;i++)
+    printf("%d\n",frr[i]);
+    return 0;
 
 }
